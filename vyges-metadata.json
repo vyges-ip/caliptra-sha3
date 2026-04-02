@@ -14,7 +14,7 @@
     "digital"
   ],
   "created": "2026-04-01T05:09:06Z",
-  "updated": "2026-04-01T05:09:06Z",
+  "updated": "2026-04-02T04:30:00Z",
   "source": {
     "type": "git",
     "url": "https://github.com/chipsalliance/caliptra-rtl",
@@ -254,5 +254,60 @@
     "schema": {
       "version": "1.0.0"
     }
-  }
+  },
+  "rtl_files": [
+    "rtl/kmac.sv",
+    "rtl/kmac_app.sv",
+    "rtl/kmac_core.sv",
+    "rtl/kmac_entropy.sv",
+    "rtl/kmac_errchk.sv",
+    "rtl/kmac_msgfifo.sv",
+    "rtl/kmac_pkg.sv",
+    "rtl/kmac_reg_pkg.sv",
+    "rtl/kmac_reg_top.sv",
+    "rtl/kmac_staterd.sv",
+    "rtl/ot_keccak_2share.sv",
+    "rtl/ot_keccak_round.sv",
+    "rtl/ot_sha3.sv",
+    "rtl/ot_sha3_pkg.sv",
+    "rtl/ot_sha3pad.sv",
+    "rtl/sha3_ctrl.sv",
+    "rtl/sha3_param_pkg.sv",
+    "rtl/sha3_reg.sv",
+    "rtl/sha3_reg_pkg.sv",
+    "rtl/sha3_reg_uvm.sv",
+    "rtl/kmac.sv",
+    "rtl/kmac_app.sv",
+    "rtl/kmac_core.sv",
+    "rtl/kmac_entropy.sv",
+    "rtl/kmac_errchk.sv",
+    "rtl/kmac_msgfifo.sv",
+    "rtl/kmac_pkg.sv",
+    "rtl/kmac_reg_pkg.sv",
+    "rtl/kmac_reg_top.sv",
+    "rtl/kmac_staterd.sv",
+    "rtl/ot_keccak_2share.sv",
+    "rtl/ot_keccak_round.sv",
+    "rtl/ot_sha3.sv",
+    "rtl/ot_sha3_pkg.sv",
+    "rtl/ot_sha3pad.sv",
+    "rtl/sha3_ctrl.sv",
+    "rtl/sha3_param_pkg.sv",
+    "rtl/sha3_reg.sv",
+    "rtl/sha3_reg_pkg.sv",
+    "rtl/sha3_reg_uvm.sv"
+  ],
+  "rtl_quality": {
+    "module_prefixed": true,
+    "defines_prefixed": true,
+    "header_guards": false,
+    "one_module_per_file": true,
+    "self_contained_includes": false,
+    "no_translate_pragmas": true,
+    "lint_clean": false,
+    "no_casex": true,
+    "width_clean": false,
+    "no_sv_keyword_conflicts": true
+  },
+  "defines": []
 }
